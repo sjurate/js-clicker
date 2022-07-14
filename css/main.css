@@ -1,0 +1,34 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+div {
+    font-size: 20em;
+}
+
+button {
+    font-size: 3em;
+    width: 5em;
+}
+
+/*
+button.plus::before {
+    content: '+';
+}
+button.minus::before {
+    content: '-';
+}
+*/
+
